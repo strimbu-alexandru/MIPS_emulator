@@ -1,0 +1,70 @@
+# depslib dependency file v1.0
+1503516767 source:d:\programare\c++\mips_emulator\main.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	"parser.h"
+	"instruction.h"
+	"assembler.h"
+	"processor.h"
+	"MIPSmachine.h"
+
+1502898045 d:\programare\c++\mips_emulator\pseudoinstruction.h
+	<vector>
+	<string>
+
+1503342894 source:d:\programare\c++\mips_emulator\parser.cpp
+	"pseudoinstruction.h"
+	"parser.h"
+	<vector>
+	<istream>
+	<string>
+	<cstdlib>
+	<cstdio>
+	<exception>
+	<iostream>
+
+1503504413 d:\programare\c++\mips_emulator\parser.h
+	"pseudoinstruction.h"
+	<vector>
+	<istream>
+	<map>
+	<exception>
+
+1503506051 d:\programare\c++\mips_emulator\instruction.h
+	<iostream>
+
+1503437295 source:d:\programare\c++\mips_emulator\assembler.cpp
+	"pseudoinstruction.h"
+	"instruction.h"
+	"assembler.h"
+	"parser.h"
+	<vector>
+	<string>
+	<map>
+	<exception>
+	<iostream>
+
+1503435172 d:\programare\c++\mips_emulator\assembler.h
+	"pseudoinstruction.h"
+	"instruction.h"
+	<vector>
+	<map>
+
+1503435459 d:\programare\c++\mips_emulator\processor.h
+	<vector>
+	"instruction.h"
+
+1503506108 source:d:\programare\c++\mips_emulator\processor.cpp
+	<vector>
+	<iostream>
+	<cstdlib>
+	"instruction.h"
+	"processor.h"
+
+1508286398 d:\programare\c++\mips_emulator\mipsmachine.h
+	<iostream>
+	<fstream>
+	<iostream>
+	<cstdlib>
+
