@@ -16,6 +16,8 @@ using std::cerr;
 using std::endl;
 using std::runtime_error;
 
+//Assemble each instructions as required
+
 Assembler::Assembler(vector<Pseudoinstruction> psins, std::map<std::string,unsigned int> labels) {
     try {
         lineCount = 0;
@@ -223,9 +225,9 @@ Assembler::Assembler(vector<Pseudoinstruction> psins, std::map<std::string,unsig
 }
 
 void Assembler::assembleAdd(Pseudoinstruction psin) {
-    Instruction *in = new Add(psin.args[0],psin.args[1],psin.args[2]);
-    ins.push_back(in);
-    in->print();cout << endl;
+    Instruction *in = new Add(psin.args[0],psin.args[1],psin.args[2]); //create the instruction
+    ins.push_back(in);	//push it into the instructions vector
+    in->print();cout << endl;  //print the instruction
 }
 
 void Assembler::assembleAddi(Pseudoinstruction psin) {

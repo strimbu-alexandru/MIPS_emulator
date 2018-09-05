@@ -5,6 +5,8 @@
 
 #include <iostream>
 
+//Definitions of instructions
+
 class Instruction {
 public:
     Instruction() { }
